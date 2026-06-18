@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sysinfo 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 16:24+0200\n"
+"POT-Creation-Date: 2026-06-18 16:32+0200\n"
 "PO-Revision-Date: 2026-06-15 12:13+0200\n"
 "Last-Translator: diekrz2\n"
 "Language-Team: pl\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Module information"
 msgstr "Informacje o module"
 
-#: src/sysinfo.sh:66 src/sysinfo.sh:223
+#: src/sysinfo.sh:66 src/sysinfo.sh:272
 msgid "Close"
 msgstr "Zamknij"
 
@@ -44,183 +44,179 @@ msgstr "Wątków na rdzeń"
 msgid "CPU information"
 msgstr "Info o procesorze"
 
-#: src/sysinfo.sh:104 src/sysinfo.sh:133 src/sysinfo.sh:138
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
 msgid "Parameter"
 msgstr "Parametr"
 
-#: src/sysinfo.sh:104 src/sysinfo.sh:133 src/sysinfo.sh:138
+#: src/sysinfo.sh:104 src/sysinfo.sh:132 src/sysinfo.sh:137
 msgid "Value"
 msgstr "Wartość"
 
-#: src/sysinfo.sh:105
-msgid "Copy"
-msgstr "Kopiuj"
-
-#: src/sysinfo.sh:123 src/sysinfo.sh:225
+#: src/sysinfo.sh:122 src/sysinfo.sh:274
 msgid "GPU"
 msgstr "GPU"
 
-#: src/sysinfo.sh:124
+#: src/sysinfo.sh:123
 msgid "Driver"
 msgstr "Sterownik"
 
-#: src/sysinfo.sh:125
+#: src/sysinfo.sh:124
 msgid "Resolution"
 msgstr "Rozdzielczość"
 
-#: src/sysinfo.sh:126
+#: src/sysinfo.sh:125
 msgid "Renderer"
 msgstr "Renderer"
 
-#: src/sysinfo.sh:127
+#: src/sysinfo.sh:126
 msgid "OpenGL"
 msgstr "OpenGL"
 
-#: src/sysinfo.sh:128
+#: src/sysinfo.sh:127
 msgid "Session"
 msgstr "Sesja"
 
-#: src/sysinfo.sh:131
+#: src/sysinfo.sh:130
 msgid "GPU information"
 msgstr "Info o GPU"
 
-#: src/sysinfo.sh:137
+#: src/sysinfo.sh:136
 msgid "Memory usage information"
 msgstr "Info o wykorzystaniu pamięci"
 
-#: src/sysinfo.sh:142
+#: src/sysinfo.sh:141
 msgid "Disk space usage"
 msgstr "Wykorzystanie dysku"
 
-#: src/sysinfo.sh:143 src/sysinfo.sh:150 src/sysinfo.sh:162 src/sysinfo.sh:174
+#: src/sysinfo.sh:142 src/sysinfo.sh:149 src/sysinfo.sh:161 src/sysinfo.sh:173
 msgid "Device"
 msgstr "Urządzenie"
 
-#: src/sysinfo.sh:143
+#: src/sysinfo.sh:142
 msgid "Mountpoint"
 msgstr "Punkt montowania"
 
-#: src/sysinfo.sh:143
+#: src/sysinfo.sh:142
 msgid "Type"
 msgstr "Rodzaj"
 
-#: src/sysinfo.sh:144
+#: src/sysinfo.sh:143
 msgid "Total:"
 msgstr "Łącznie:"
 
-#: src/sysinfo.sh:144
+#: src/sysinfo.sh:143
 msgid "Free:"
 msgstr "Wolna:"
 
-#: src/sysinfo.sh:144
+#: src/sysinfo.sh:143
 msgid "Usage:"
 msgstr "Używana:"
 
-#: src/sysinfo.sh:148
+#: src/sysinfo.sh:147
 msgid "PCI bus devices"
 msgstr "Urządzenia PCI"
 
-#: src/sysinfo.sh:149
+#: src/sysinfo.sh:148
 msgid "ID"
 msgstr "ID"
 
-#: src/sysinfo.sh:149
+#: src/sysinfo.sh:148
 msgid "Class"
 msgstr "Klasa"
 
-#: src/sysinfo.sh:150
+#: src/sysinfo.sh:149
 msgid "Vendor"
 msgstr "Producent"
 
-#: src/sysinfo.sh:150
+#: src/sysinfo.sh:149
 msgid "Revision"
 msgstr "Rewizja"
 
-#: src/sysinfo.sh:154
+#: src/sysinfo.sh:153
 msgid "Loaded kernel modules"
 msgstr "Załadowane moduły jądra"
 
-#: src/sysinfo.sh:157
+#: src/sysinfo.sh:156
 msgid "Name"
 msgstr "Nazwa"
 
-#: src/sysinfo.sh:157
+#: src/sysinfo.sh:156
 msgid "Used"
 msgstr "Używane"
 
-#: src/sysinfo.sh:157
+#: src/sysinfo.sh:156
 msgid "Depends"
 msgstr "Zależy"
 
-#: src/sysinfo.sh:161
+#: src/sysinfo.sh:160
 msgid "Battery state"
 msgstr "Stan baterii"
 
-#: src/sysinfo.sh:162
+#: src/sysinfo.sh:161
 msgid "Details"
 msgstr "Szczeguły"
 
-#: src/sysinfo.sh:172
+#: src/sysinfo.sh:171
 msgid "Network information"
 msgstr "Info o sieci"
 
-#: src/sysinfo.sh:212
+#: src/sysinfo.sh:255
+msgid "Not found"
+msgstr "Nie znaleziono"
+
+#: src/sysinfo.sh:261
 msgid "Hardware system information"
 msgstr "Info o sprzęcie i systemie"
 
-#: src/sysinfo.sh:213
+#: src/sysinfo.sh:262
 msgid "OS"
 msgstr "SO"
 
-#: src/sysinfo.sh:213
+#: src/sysinfo.sh:262
 msgid "on"
 msgstr "na"
 
-#: src/sysinfo.sh:214
-msgid "Not installed"
-msgstr "Nie zainstalowane"
-
-#: src/sysinfo.sh:216
-msgid "Moskha"
+#: src/sysinfo.sh:265
+msgid "Moksha"
 msgstr "Moksha"
 
-#: src/sysinfo.sh:217
+#: src/sysinfo.sh:266
 msgid "Kernel"
 msgstr "Jądro"
 
-#: src/sysinfo.sh:223
+#: src/sysinfo.sh:272
 msgid "System information"
 msgstr "Informacje o systemie"
 
-#: src/sysinfo.sh:224
+#: src/sysinfo.sh:273
 msgid "Copy report"
 msgstr "Kopiuj raport"
 
-#: src/sysinfo.sh:225
+#: src/sysinfo.sh:274
 msgid "CPU"
 msgstr "CPU"
 
-#: src/sysinfo.sh:225
+#: src/sysinfo.sh:274
 msgid "Memory"
 msgstr "Pamięć"
 
-#: src/sysinfo.sh:226
+#: src/sysinfo.sh:275
 msgid "Disks"
 msgstr "Dyski"
 
-#: src/sysinfo.sh:226
+#: src/sysinfo.sh:275
 msgid "PCI"
 msgstr "PCI"
 
-#: src/sysinfo.sh:226
+#: src/sysinfo.sh:275
 msgid "Modules"
 msgstr "Moduły"
 
-#: src/sysinfo.sh:227
+#: src/sysinfo.sh:276
 msgid "Battery"
 msgstr "Bateria"
 
-#: src/sysinfo.sh:227
+#: src/sysinfo.sh:276
 msgid "Network"
 msgstr "Sieć"
 
