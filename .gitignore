@@ -1,1 +1,9 @@
 *~
+*.desktop
+data/*.h
+po/*.mo
+debian/.debhelper
+debian/bodhi-sysinfo
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
