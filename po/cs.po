@@ -162,7 +162,7 @@ msgstr "Informace o síti"
 
 #: src/sysinfo.sh:255
 msgid "Not found"
-msgstr ""
+msgstr "Nenalezeno"
 
 #: src/sysinfo.sh:261
 msgid "Hardware system information"
